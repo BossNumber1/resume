@@ -22,7 +22,7 @@ export default function Home() {
                     ></img>
                 </div>
 
-                <p className={styles.description}>Дмитрий Устинов</p>
+                <p className={styles.description}>Дмитрий Устимов</p>
 
                 <h4>Velikiy Novgorod, 25 years</h4>
 
