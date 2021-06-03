@@ -27,12 +27,12 @@ export default function Home() {
                 <h4>Velikiy Novgorod, 25 years</h4>
 
                 <div className={styles.grid}>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
+                    <a href="/#" className={styles.card}>
                         <h2>ReactJS developer</h2>
                         <p>Middle level</p>
                     </a>
 
-                    <a href="https://nextjs.org/learn" className={styles.card}>
+                    <a href="/#" className={styles.card}>
                         <h2>Own project</h2>
                         <p>
                             👉
@@ -43,10 +43,7 @@ export default function Home() {
                         </p>
                     </a>
 
-                    <a
-                        href="https://github.com/vercel/next.js/tree/master/examples"
-                        className={styles.card}
-                    >
+                    <a href="/#" className={styles.card}>
                         <h2>Companies where I worked</h2>
                         <p>
                             They were startups, but with the atmosphere of real
@@ -54,10 +51,7 @@ export default function Home() {
                         </p>
                     </a>
 
-                    <a
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        className={styles.card}
-                    >
+                    <a href="/#" className={styles.card}>
                         <h2>About me</h2>
                         <p>
                             Purposeful, ambitious, keen to work as a programmer
