@@ -14,58 +14,65 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className={styles.main}>
-                <div>
-                    <img
-                        width="520 px"
-                        src="https://sun9-21.userapi.com/impf/c857732/v857732877/c14d1/8m0J4gaOPo8.jpg?size=1592x1591&quality=96&sign=6e981496dba0cd96bc3139c4dd9fe099&type=album"
-                    ></img>
+            <main>
+                <div className={styles.main}>
+                    <div>
+                        <img
+                            width="520 px"
+                            src="https://sun9-21.userapi.com/impf/c857732/v857732877/c14d1/8m0J4gaOPo8.jpg?size=1592x1591&quality=96&sign=6e981496dba0cd96bc3139c4dd9fe099&type=album"
+                        ></img>
+                    </div>
+
+                    <p className={styles.description}>Дмитрий Устинов</p>
+
+                    <h4>Velikiy Novgorod, 25 years</h4>
+
+                    <div className={styles.grid}>
+                        <a href="/#" className={styles.card}>
+                            <h2>ReactJS developer</h2>
+                            <p>Middle level</p>
+                        </a>
+
+                        <a href="/#" className={styles.card}>
+                            <h2>Own project</h2>
+                            <p>
+                                👉
+                                <a href="https://vk.com/bookmen_off">
+                                    Diary on it with daily reports
+                                </a>
+                                👈
+                            </p>
+                        </a>
+
+                        <a href="/#" className={styles.card}>
+                            <h2>Companies where I worked</h2>
+                            <p>
+                                They were startups, but with the atmosphere of
+                                real companies
+                            </p>
+                        </a>
+
+                        <a href="/#" className={styles.card}>
+                            <h2>About me</h2>
+                            <p>
+                                Purposeful, ambitious, keen to work as a
+                                programmer
+                            </p>
+                        </a>
+                    </div>
                 </div>
-
-                <p className={styles.description}>Дмитрий Устинов</p>
-
-                <h4>Velikiy Novgorod, 25 years</h4>
-
-                <div className={styles.grid}>
-                    <a href="/#" className={styles.card}>
-                        <h2>ReactJS developer</h2>
-                        <p>Middle level</p>
-                    </a>
-
-                    <a href="/#" className={styles.card}>
-                        <h2>Own project</h2>
-                        <p>
-                            👉
-                            <a href="https://vk.com/bookmen_off">
-                                Diary on it with daily reports
-                            </a>
-                            👈
-                        </p>
-                    </a>
-
-                    <a href="/#" className={styles.card}>
-                        <h2>Companies where I worked</h2>
-                        <p>
-                            They were startups, but with the atmosphere of real
-                            companies
-                        </p>
-                    </a>
-
-                    <a href="/#" className={styles.card}>
-                        <h2>About me</h2>
-                        <p>
-                            Purposeful, ambitious, keen to work as a programmer
-                        </p>
-                    </a>
+                <div
+                    style={{ marginTop: 320, marginBottom: 100 }}
+                    className={styles.dopol}
+                >
+                    My skills: Next JS, ReactJS, Redux, React-Redux, CSS3, HTML5
+                    and other
                 </div>
             </main>
 
             <footer className={styles.footer}>
                 <div>
-                    <h2>
-                        My skills: Next JS, ReactJS, Redux, React-Redux, CSS3,
-                        HTML5 and other
-                    </h2>
+                    <h5>MiAng Production</h5>
                 </div>
                 <div style={{ marginLeft: 100, color: "blueviolet" }}>
                     <a href="https://vk.com/moyustimov">For communication</a>
